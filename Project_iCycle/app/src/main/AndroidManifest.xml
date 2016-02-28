@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="icycle.com.project_icycle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartUp"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Change_Password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Forget_Password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Health_Connect_Device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Health_Display"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Health_Cycled_History"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Health_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Search_Park"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Direction"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

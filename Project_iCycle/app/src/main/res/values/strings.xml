@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project_iCycle</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_change__password">Change_Password</string>
+    <string name="title_activity_forget__password">Forget_Password</string>
+    <string name="title_activity_health__connect__device">Health_Connect_Device</string>
+    <string name="title_activity_health__display">Health_Display</string>
+    <string name="title_activity_health__cycled__history">Health_Cycled_History</string>
+    <string name="title_activity_health_">Health_Activity</string>
+    <string name="title_activity_search__park">Search_Park</string>
+    <string name="title_activity_direction">Direction</string>
+</resources>
